@@ -19,3 +19,5 @@ jobs:
         cd "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build>"
         vcvarsall.bat x64
         dir
+    - name: Test
+      run: dir
