@@ -16,3 +16,5 @@ jobs:
         cd "C:\Users\Public\Desktop\"
         git clone https://github.com/odin-lang/Odin
         dir
+        cd "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build>"
+        vcvarsall.bat x64
