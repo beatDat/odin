@@ -1,0 +1,20 @@
+name: main
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+     run:
+      shell: cmd
+    
+    steps:
+    - name: Download
+      run: |
+        c:
+        cd "C:\Users\Public\Desktop\"
+        curl -o odin.zip https://github.com/odin-lang/Odin/releases/download/dev-2023-05/odin-windows-amd64-dev-2023-05.zip
+        dir
+        unzip odin.zip
+        dir
