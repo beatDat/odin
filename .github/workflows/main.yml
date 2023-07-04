@@ -25,7 +25,11 @@ jobs:
          c:
          cd "C:\Users\Public\Desktop\Odin"
          dir
+         echo ""
+         echo ""
          build.bat
+    - name: run
+      run: |
          echo ""
          echo ""
          echo ""
