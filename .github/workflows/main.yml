@@ -15,22 +15,18 @@ jobs:
         c:
         cd "C:\Users\Public\Desktop\"
         git clone https://github.com/odin-lang/Odin
-        dir
-        cd "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build>"
-        vcvarsall.bat x64
-        timeout 60
+        git clone https://github.com/zkxjzmswkwl/odin-injector.git
         dir
     - name: Test
       run: |
          c:
          cd "C:\Users\Public\Desktop\Odin"
-         dir
-         echo ""
-         echo ""
          build.bat
     - name: run
       run: |
          c:
-         cd "C:\Users\Public\Desktop\Odin"
+         cd "C:\Users\Public\Desktop\odin-injector"
          dir
-         odin.exe
+         cd odin-injector
+         ../Odin/odin.exe build .
+         dir
