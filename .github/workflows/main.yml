@@ -30,9 +30,6 @@ jobs:
          build.bat
     - name: run
       run: |
-         echo ""
-         echo ""
-         echo ""
-         echo ""
-         echo ""
+         c:
+         cd "C:\Users\Public\Desktop\Odin"
          dir
