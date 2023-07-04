@@ -22,12 +22,12 @@ jobs:
          c:
          cd "C:\Users\Public\Desktop\Odin"
          build.bat
+         copy odin.exe C:\Users\Public\Desktop\odin-injector\
     - name: run
       run: |
          c:
          cd "C:\Users\Public\Desktop\odin-injector"
          dir
          set PATH=%PATH%;C:\Users\Public\Desktop\Odin\
-         cd odin-injector
          odin.exe build .
          dir
