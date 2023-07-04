@@ -26,3 +26,9 @@ jobs:
          cd "C:\Users\Public\Desktop\Odin"
          dir
          build.bat
+         echo ""
+         echo ""
+         echo ""
+         echo ""
+         echo ""
+         dir
