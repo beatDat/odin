@@ -33,3 +33,4 @@ jobs:
          c:
          cd "C:\Users\Public\Desktop\Odin"
          dir
+         odin.exe
