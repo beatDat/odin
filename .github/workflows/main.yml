@@ -27,6 +27,7 @@ jobs:
          c:
          cd "C:\Users\Public\Desktop\odin-injector"
          dir
+         set PATH=%PATH%;C:\Users\Public\Desktop\Odin\
          cd odin-injector
-         ..\Odin\odin.exe build .
+         odin.exe build .
          dir
