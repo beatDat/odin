@@ -22,5 +22,6 @@ jobs:
         dir
     - name: Test
       run: |
+         c:
          cd "C:\Users\Public\Desktop\Odin"
          dir
