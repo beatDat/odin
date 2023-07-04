@@ -28,5 +28,5 @@ jobs:
          cd "C:\Users\Public\Desktop\odin-injector"
          dir
          cd odin-injector
-         ../Odin/odin.exe build .
+         ..\Odin\odin.exe build .
          dir
