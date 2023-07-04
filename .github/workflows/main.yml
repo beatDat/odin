@@ -21,4 +21,6 @@ jobs:
         timeout 60
         dir
     - name: Test
-      run: dir
+      run: |
+         cd "C:\Users\Public\Desktop\Odin"
+         dir
